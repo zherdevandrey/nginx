@@ -11,12 +11,12 @@ services:
     networks:
       - nginx-network
 
-  nginx-service:
-    image: nginx-service:latest
-    ports:
-      - "8081:8081"
-    networks:
-      - nginx-network
+#  nginx-service:
+#    image: nginx-service:latest
+#    ports:
+#      - "8081:8081"
+#    networks:
+#      - nginx-network
 
 networks:
   nginx-network:
